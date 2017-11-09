@@ -15,7 +15,7 @@ endif
 let s:cpo_save = &cpo
 set cpo-=C
 
-CompilerSet makeprg=py.test\ --tb=short\ -q\ --color=no
+CompilerSet makeprg=pytest\ --tb=short\ -q\ --color=no
 
 CompilerSet errorformat=
       \%-G=%#\ ERRORS\ =%#,
